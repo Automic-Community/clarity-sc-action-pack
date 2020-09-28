@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<DOCU name="PCK.AUTOMIC_CA_SERVICECATALOG.PUB.DOC">
+<HEADER state="1">
+<Title>Pack Documentation</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<DOCU_Docu state="1" type="text">
+<DOC><![CDATA[About CA SERVICE CATALOG Package
+================================
+CA Service Catalog is an enterprise grade solution that enables enterprise IT service departments to offer its end users IT services in an interactive, online, and automated way and with a self-service approach similar to the popular solution ServiceNow.
+* Get test details
+* Update Request Status
+
+=Supported CA SERVICE CATALOG versions=
+SERVICE CATALOG Version 17.2.0.0
+
+=Limitations=
+(none)
+
+=Setup=
+* The Agent must be able to access the SOAP API endpoint URL for the CA Service Catalog to make HTTP requests.
+* The RA Webservice agent must be configured.
+
+=Actions=
+The following actions are supported for CA SERVICE CATALOG.
+
+* Action Name: PCK.AUTOMIC_CA_SERVICECATALOG.PUB.ACTION.UPDATE_REQUEST_STATUS
+* Action Description: This action is used to update the request status.
+
+* Action Name: PCK.AUTOMIC_CA_SERVICECATALOG.PUB.ACTION.ADD_COMMENT
+* Action Description: This action is used to add a note to the request.
+
+]]></DOC>
+</DOCU_Docu>
+</DOCU>
+</uc-export>

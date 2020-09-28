@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<JOBI name="PCK.AUTOMIC_CA_SERVICECATALOG.PUB.INCLUDE.SET_VARA_VALUE">
+<HEADER state="1">
+<Title>Set Vara Value</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<SCRIPT mode="1" state="1">
+<MSCRI><![CDATA[! Get attribute value key
+: SET &HANDLE# = PREP_PROCESS_VAR(&ATTRIBUTE_VARA#,,&ATTRIBUTE_VALUE#)
+: DEFINE &ATTRIBUTE_KEY#, string
+: PROCESS &HANDLE#
+:   SET &ATTRIBUTE_KEY# = GET_PROCESS_LINE(&HANDLE#,1)
+: ENDPROCESS
+: CLOSE_PROCESS &HANDLE#
+]]></MSCRI>
+</SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</JOBI>
+</uc-export>

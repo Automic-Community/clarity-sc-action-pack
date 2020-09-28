@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<JOBI name="PCK.AUTOMIC_CA_SERVICECATALOG.PUB.INCLUDE.ESCAPE_ARG_VALUE">
+<HEADER state="1">
+<Title>Escape Args</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<SCRIPT mode="1" state="1">
+<MSCRI><![CDATA[! Escaping characters for soap request XML
+
+! Removes empty spaces at the beginning and the end of a string
+: SET &UC4RB_ESCAPED_STRING# = STR_TRIM(&UC4RB_ESCAPED_STRING#)
+
+: SET &UC4RB_ESCAPED_STRING# = STR_SUB(&UC4RB_ESCAPED_STRING#, "<", "&&lt;")
+: SET &UC4RB_ESCAPED_STRING# = STR_SUB(&UC4RB_ESCAPED_STRING#, ">", "&&gt;")
+: SET &UC4RB_ESCAPED_STRING# = STR_SUB(&UC4RB_ESCAPED_STRING#, '"', "&&quot;")
+: SET &UC4RB_ESCAPED_STRING# = STR_SUB(&UC4RB_ESCAPED_STRING#, "'", "&&apos;")
+]]></MSCRI>
+</SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</JOBI>
+</uc-export>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<VARA OVD_VRName="FREI" data_type="STATIC" name="PCK.AUTOMIC_CA_SERVICECATALOG.PRV.VARA.GET_REQUEST_STATUS" replacementmode="2">
+<HEADER state="1">
+<Title>Get Request Status</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType>STATIC</OH_SubType>
+</HEADER>
+<ATTR_VARA state="1">
+<Type>C|Text</Type>
+<lblSource>Static</lblSource>
+<source>STATIC</source>
+<VRName>FREI|Freely selected</VRName>
+<NotFoundErr>0</NotFoundErr>
+<NotFoundDef>1</NotFoundDef>
+<ShareN>0</ShareN>
+<ShareL>0</ShareL>
+<ShareR>0</ShareR>
+<MaxValue_C>1024</MaxValue_C>
+<CheckMax_C>0</CheckMax_C>
+<uppercase>0</uppercase>
+<sortColumn>1</sortColumn>
+<sortDirection>0</sortDirection>
+<HostType/>
+</ATTR_VARA>
+<VARA state="1">
+<Variables>
+<row Name="999" Value="Approval Done" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="801" Value="Approval Not Needed" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="800" Value="Approved" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1005" Value="Backordered" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1018" Value="Being Configured" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1016" Value="Being Staged" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1013" Value="CA SDM Change Order Opened" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1020" Value="CA SDM Request Opened" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="4" Value="Cancelled" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1001" Value="Check Availability" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="2" Value="Completed" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1019" Value="Configured" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1002" Value="Filled From Inventory" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="2000" Value="Fulfilled" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1999" Value="Fulfillment Cancelled" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="3000" Value="Hold" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1003" Value="Not Filled From Inventory" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="100" Value="Not Submitted" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="104" Value="Not Submitted - Approved" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="101" Value="Not Submitted - Cart" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="103" Value="Not Submitted - Rejected" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1015" Value="Notified IT Services" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1008" Value="Order Cancelled" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1004" Value="Ordered" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="400" Value="Pending Approval" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="3" Value="Pending Cancellation" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1000" Value="Pending Fulfillment" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1012" Value="Pending Procurement" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="6" Value="Pending Resource Assignment" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="201" Value="Re-submitted" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1007" Value="Received" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="600" Value="Rejected" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="5001" Value="Request Queued" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="7" Value="Resource Assigned" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="4000" Value="Resume" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1006" Value="Shipped" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="1017" Value="Staged" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="200" Value="Submitted" Value1="" Value2="" Value3="" Value4=""/>
+</Variables>
+</VARA>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</VARA>
+</uc-export>

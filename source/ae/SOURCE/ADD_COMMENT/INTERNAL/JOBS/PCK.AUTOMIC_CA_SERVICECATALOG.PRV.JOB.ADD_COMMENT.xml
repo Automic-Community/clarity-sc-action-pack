@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<JOBS_CIT AttrType="CIT" name="PCK.AUTOMIC_CA_SERVICECATALOG.PRV.JOB.ADD_COMMENT">
+<XHEADER state="1">
+<Title>Add Note on Request</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<Active>1</Active>
+<OH_SubType/>
+<CustomAttributes KeyListID="0" dataRequestID="0"/>
+</XHEADER>
+<OUTPUTREG state="1">
+<FileReg/>
+</OUTPUTREG>
+<SYNCREF state="1">
+<Syncs/>
+</SYNCREF>
+<ATTR_JOBS state="1">
+<Queue>CLIENT_QUEUE</Queue>
+<StartType/>
+<HostDst>|&lt;CIT&gt;|HOST</HostDst>
+<HostATTR_Type>CIT</HostATTR_Type>
+<CodeName/>
+<Login/>
+<IntAccount/>
+<ExtRepDef>1</ExtRepDef>
+<ExtRepAll>0</ExtRepAll>
+<ExtRepNone>0</ExtRepNone>
+<AutoDeactNo>0</AutoDeactNo>
+<AutoDeact1ErrorFree>1</AutoDeact1ErrorFree>
+<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<DeactWhen>ANY_OK</DeactWhen>
+<DeactDelay>0</DeactDelay>
+<AutoDeactAlways>0</AutoDeactAlways>
+<AttDialog>0</AttDialog>
+<ActAtRun>1</ActAtRun>
+<Consumption>0</Consumption>
+<UC4Priority>0</UC4Priority>
+<MaxParallel2>0</MaxParallel2>
+<MpElse1>0</MpElse1>
+<MpElse2>1</MpElse2>
+<TZ/>
+</ATTR_JOBS>
+<ATTR_CIT state="1">
+<OutputDb>1</OutputDb>
+<OutputDbErr>0</OutputDbErr>
+<OutputFile>0</OutputFile>
+<OptReportPLOG>1</OptReportPLOG>
+<RequTaskParams>0</RequTaskParams>
+</ATTR_CIT>
+<CIT state="2">
+<citcont agentname="&lt;CIT&gt;" jobtype="WEBSERVICESOAP" text="Web Service SOAP">
+<cit cittype="2" icon="" id="" subtype="SOAP" text="SOAP Web Service">
+<component con="0" enc="0" type="2" value="false" xmlName="jobHttpHeaders"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobSoapHeaders"/>
+<component con="0" enc="0" type="2" value="addRequestNote" xmlName="methodName"/>
+<component con="0" enc="0" type="2" value="false" xmlName="mtomEnabled"/>
+<component con="0" enc="0" type="2" value="true" xmlName="overwriteEndpoint"/>
+<component con="0" enc="0" type="2" value="true" xmlName="printResponseRequestDebug"/>
+<component con="0" enc="0" type="2" value="true" xmlName="printSOAPRequest"/>
+<component con="0" enc="0" type="2" value="true" xmlName="printSOAPResponse"/>
+<component con="0" enc="0" type="2" value="false" xmlName="requiredOnly"/>
+<component con="0" enc="0" type="2" value="" xmlName="soapAction"/>
+<component con="0" enc="0" type="2" value="&amp;UC4RB_SC_SOAP_END_POINT#" xmlName="urlEndpoint"/>
+<component con="1" enc="0" type="2" value="PCK.AUTOMIC_CA_SERVICECATALOG.CONN.WEBSERVICE.SOAPCONNECTION" xmlName="webConnection"/>
+<component con="0" enc="0" type="2" value="" xmlName="xmlRequestClass"/>
+<component con="0" enc="0" type="2" value="A&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:rpc=&quot;http://services.soap.usm.ca.com&quot;&gt;" xmlName="xmlRequest_1"/>
+<component con="0" enc="0" type="2" value="A   &lt;/soapenv:Body&gt;" xmlName="xmlRequest_10"/>
+<component con="0" enc="0" type="2" value="A&lt;/soapenv:Envelope&gt;" xmlName="xmlRequest_11"/>
+<component con="0" enc="0" type="2" value="A   &lt;soapenv:Header/&gt;" xmlName="xmlRequest_2"/>
+<component con="0" enc="0" type="2" value="A   &lt;soapenv:Body&gt;" xmlName="xmlRequest_3"/>
+<component con="0" enc="0" type="2" value="A      &lt;rpc:addRequestNote soapenv:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;" xmlName="xmlRequest_4"/>
+<component con="0" enc="0" type="2" value="A         &lt;sessionID xsi:type=&quot;xsd:string&quot;&gt;&amp;SESSION_ID#&lt;/sessionID&gt;" xmlName="xmlRequest_5"/>
+<component con="0" enc="0" type="2" value="A         &lt;requestID xsi:type=&quot;xsd:int&quot;&gt;&amp;UC4RB_SC_REQUEST_ID#&lt;/requestID&gt;" xmlName="xmlRequest_6"/>
+<component con="0" enc="0" type="2" value="A         &lt;noteText xsi:type=&quot;xsd:string&quot;&gt;&lt;![CDATA[&amp;UC4RB_SC_NOTE#]]&gt;&lt;/noteText&gt;" xmlName="xmlRequest_7"/>
+<component con="0" enc="0" type="2" value="A         &lt;noteType xsi:type=&quot;xsd:int&quot;&gt;&amp;ATTRIBUTE_KEY#&lt;/noteType&gt;" xmlName="xmlRequest_8"/>
+<component con="0" enc="0" type="2" value="A      &lt;/rpc:addRequestNote&gt;" xmlName="xmlRequest_9"/>
+<component con="0" enc="0" type="2" value="" xmlName="xmlResponseClass"/>
+<component con="0" enc="0" type="2" value="" xmlName="xmlResponseQName"/>
+<component con="0" enc="0" type="2" value="false" xmlName="xopforced"/>
+</cit>
+<cit cittype="3" icon="" id="" subtype="GENERALJOBPANELDEF" text="General Job Panel"/>
+</citcont>
+</CIT>
+<RUNTIME state="1">
+<MaxRetCode>0</MaxRetCode>
+<MrcExecute/>
+<MrcElseE>0</MrcElseE>
+<FcstStatus>0| |</FcstStatus>
+
+<ErtMethodDef>1</ErtMethodDef>
+<ErtMethodFix>0</ErtMethodFix>
+<ErtFix>0</ErtFix>
+<ErtDynMethod>2|Average</ErtDynMethod>
+<ErtMethodDyn>0</ErtMethodDyn>
+<ErtCnt>0</ErtCnt>
+<ErtCorr>0</ErtCorr>
+<ErtIgn>0</ErtIgn>
+<ErtIgnFlg>0</ErtIgnFlg>
+<ErtMinCnt>0</ErtMinCnt>
+<MrtMethodNone>1</MrtMethodNone>
+<MrtMethodFix>0</MrtMethodFix>
+<MrtFix>0</MrtFix>
+<MrtMethodErt>0</MrtMethodErt>
+<MrtErt>0</MrtErt>
+<MrtMethodDate>0</MrtMethodDate>
+<MrtDays>0</MrtDays>
+<MrtTime>00:00</MrtTime>
+<MrtTZ/>
+<SrtMethodNone>1</SrtMethodNone>
+<SrtMethodFix>0</SrtMethodFix>
+<SrtFix>0</SrtFix>
+<SrtMethodErt>0</SrtMethodErt>
+<SrtErt>0</SrtErt>
+<MrtCancel>0</MrtCancel>
+<MrtExecute>0</MrtExecute>
+<MrtExecuteObj/>
+</RUNTIME>
+<DYNVALUES state="1">
+<dyntree>
+<node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
+<VALUE state="1">
+<Values/>
+<Mode>0</Mode>
+</VALUE>
+</node>
+</dyntree>
+</DYNVALUES>
+<ROLLBACK state="1">
+<RollbackFlag>0</RollbackFlag>
+<CBackupObj/>
+<CRollbackObj/>
+<FBackupPath/>
+<FDeleteBefore>0</FDeleteBefore>
+<FInclSubDirs>0</FInclSubDirs>
+</ROLLBACK>
+<PRE_SCRIPT mode="1" replacementmode="1" state="1">
+<PSCRI><![CDATA[:INC PCK.AUTOMIC_RA_REST.PUB.INCLUDE.PREPARE_RA_JOB]]></PSCRI>
+</PRE_SCRIPT>
+<SCRIPT mode="1" state="1">
+<MSCRI><![CDATA[!-----Retrieve value of note type corresonding to note type description-----
+
+:SET &ATTRIBUTE_VARA# = "PCK.AUTOMIC_CA_SERVICECATALOG.PRV.VARA.GET_NOTE_TYPE"
+:SET &ATTRIBUTE_VALUE# = &UC4RB_SC_NOTE_TYPE#
+:INC PCK.AUTOMIC_CA_SERVICECATALOG.PUB.INCLUDE.SET_VARA_VALUE
+
+! Escaping characters for soap request XML
+: SET &UC4RB_ESCAPED_STRING# = &UC4RB_SC_NOTE#
+: INC PCK.AUTOMIC_CA_SERVICECATALOG.PUB.INCLUDE.ESCAPE_ARG_VALUE
+: SET &UC4RB_SC_NOTE# = &UC4RB_ESCAPED_STRING#
+]]></MSCRI>
+</SCRIPT>
+<OUTPUTSCAN state="1">
+<Inherit>N</Inherit>
+<filterobjects/>
+<HostFsc/>
+<LoginFsc/>
+</OUTPUTSCAN>
+<POST_SCRIPT mode="1" replacementmode="1" state="1">
+<OSCRI/>
+</POST_SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</JOBS_CIT>
+</uc-export>
