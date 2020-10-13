@@ -13,8 +13,10 @@ CA Service Catalog is an enterprise grade solution that enables enterprise IT se
 * Get test details
 * Update Request Status
 
-=Supported CA SERVICE CATALOG versions=
-SERVICE CATALOG Version 17.2.0.0
+= Common inputs=
+* API Endpoint            : The SOAP API Endpoint of the CA Service Catalog to submit calls
+* Username                : The username to authenticate on CA Service Catalog
+* Password                : The password to authenticate on CA Service Catalog
 
 =Limitations=
 (none)
